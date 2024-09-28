@@ -28,10 +28,10 @@ function App() {
 
   return (
     <div className="app">
-      <Router>
+      <Router basename="/amoussa">
         <ScrollToTop />
         <Switch>
-          <Route path="/amoussa" exact component={Main} />
+          <Route path="/" exact component={Main} />
           {/* <Route path="/blog" exact component={BlogPage} /> */}
           <Route path="/projects" exact component={ProjectPage} />
 
